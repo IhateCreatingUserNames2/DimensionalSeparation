@@ -1,0 +1,104 @@
+E:\ProjetosPython\Aura2\.venv\Scripts\python.exe E:\ProjetosPython\CeafV3\qkisttesting.py 
+
+======================================================================
+ QUANTUM TEST: DOES SEPARATION ENABLE ADDITION/COUNTING?
+======================================================================
+
+Theory: Space/separation is the pattern that enables addition.
+Test: Can we 'count' qubits when we remove their separation via entanglement?
+======================================================================
+
+============================================================
+EXPERIMENT 1: SEPARATED QUBITS (Clear Distinction)
+============================================================
+
+Circuit:
+     ┌───┐┌─┐   
+q_0: ┤ H ├┤M├───
+     ├───┤└╥┘┌─┐
+q_1: ┤ H ├─╫─┤M├
+     └───┘ ║ └╥┘
+c: 2/══════╩══╩═
+           0  1 
+
+Results (1000 shots):
+{'01': 248, '00': 236, '10': 250, '11': 266}
+
+Interpretation:
+- Four distinct outcomes: 00, 01, 10, 11
+- Each outcome ~25% probability
+- We can clearly distinguish TWO separate qubits
+- Addition works: 1 qubit + 1 qubit = 2 distinguishable qubits
+
+============================================================
+EXPERIMENT 2: ENTANGLED QUBITS (Lost Distinction)
+============================================================
+
+Circuit:
+     ┌───┐     ┌─┐   
+q_0: ┤ H ├──■──┤M├───
+     └───┘┌─┴─┐└╥┘┌─┐
+q_1: ─────┤ X ├─╫─┤M├
+          └───┘ ║ └╥┘
+c: 2/═══════════╩══╩═
+                0  1 
+
+Results (1000 shots):
+{'11': 516, '00': 484}
+
+Interpretation:
+- Only TWO outcomes: 00 and 11 (never 01 or 10)
+- Each outcome ~50% probability
+- Qubits are perfectly correlated - they've lost independence
+- They're now ONE entangled system, not two separate things
+- Addition breaks down: 1 + 1 ≠ 2 when distinction is removed
+
+============================================================
+EXPERIMENT 3: PARTIAL ENTANGLEMENT (Partial Distinction)
+============================================================
+
+Circuit:
+     ┌───┐              ┌─┐   
+q_0: ┤ H ├──────■───────┤M├───
+     └───┘┌─────┴──────┐└╥┘┌─┐
+q_1: ─────┤ Ry(0.7854) ├─╫─┤M├
+          └────────────┘ ║ └╥┘
+c: 2/════════════════════╩══╩═
+                         0  1 
+
+Results (1000 shots):
+{'00': 512, '01': 428, '11': 60}
+
+Interpretation:
+- All four outcomes possible, but unequal probabilities
+- Partial correlation between qubits
+- Somewhere between 'two separate things' and 'one thing'
+- The degree of separation determines how well we can count them
+
+============================================================
+EXPERIMENT 4: THREE-QUBIT GHZ STATE (No 3-way Distinction)
+============================================================
+
+Circuit:
+     ┌───┐             ┌─┐   
+q_0: ┤ H ├──■────■─────┤M├───
+     └───┘┌─┴─┐  │  ┌─┐└╥┘   
+q_1: ─────┤ X ├──┼──┤M├─╫────
+          └───┘┌─┴─┐└╥┘ ║ ┌─┐
+q_2: ──────────┤ X ├─╫──╫─┤M├
+               └───┘ ║  ║ └╥┘
+c: 3/════════════════╩══╩══╩═
+                     1  0  2 
+
+Results (1000 shots):
+{'000': 503, '111': 497}
+
+Interpretation:
+- Only TWO outcomes: 000 and 111
+- All three qubits perfectly correlated
+- Cannot distinguish individual qubits
+- 1 + 1 + 1 = ? (not 3 when they're all entangled)
+
+============================================================
+Visualization saved as 'quantum_separation_test.png'
+============================================================
