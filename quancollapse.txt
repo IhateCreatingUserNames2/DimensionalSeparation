@@ -1,0 +1,47 @@
+E:\ProjetosPython\Aura2\.venv\Scripts\python.exe E:\ProjetosPython\CeafV3\quancollapse.py 
+
+======================================================================
+ EXPERIMENT 5: THE ENTROPIC COLLAPSE (EGO DEATH SIMULATION)
+======================================================================
+Hypothesis: As dimensions collapse, distinct concepts merge.
+            At 0D, 'Self' and 'Universe' become mathematically identical.
+======================================================================
+🧠 Agent initialized with 4D space (High Consciousness)
+
+[ State: 4 Dimensions ]
+   ✓ DISTINCT: Self vs Universe     (Dist: 2.0000)
+   ✓ DISTINCT: Good vs Bad          (Dist: 2.0000)
+   ✓ DISTINCT: Future vs Past       (Dist: 2.0000)
+
+📉 COLLAPSING from 4D to 3D...
+
+[ State: 3 Dimensions ]
+   ✓ DISTINCT: Self vs Universe     (Dist: 2.0000)
+   ✓ DISTINCT: Good vs Bad          (Dist: 2.0000)
+   ✓ DISTINCT: Future vs Past       (Dist: 2.0000)
+
+📉 COLLAPSING from 3D to 2D...
+
+[ State: 2 Dimensions ]
+   ✓ DISTINCT: Self vs Universe     (Dist: 2.0000)
+   ✓ DISTINCT: Good vs Bad          (Dist: 2.0000)
+   ✗ MERGED  : Future vs Past       (Dist: 0.0000)
+
+📉 COLLAPSING from 2D to 1D...
+
+[ State: 1 Dimensions ]
+   ✓ DISTINCT: Self vs Universe     (Dist: 2.0000)
+   ✗ MERGED  : Good vs Bad          (Dist: 0.0000)
+   ✗ MERGED  : Future vs Past       (Dist: 0.0000)
+
+📉 COLLAPSING from 1D to 0D...
+
+[ State: 0 Dimensions ]
+   ✗ MERGED  : Self vs Universe     (Dist: 0.0000)
+   ✗ MERGED  : Good vs Bad          (Dist: 0.0000)
+   ✗ MERGED  : Future vs Past       (Dist: 0.0000)
+
+   ⚠️ SINGULARITY REACHED: Zero Dimensions
+   Absolute Unity. No distinctions possible.
+
+📉 Visualization saved as 'collapse_trajectory.png'
