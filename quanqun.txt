@@ -1,0 +1,34 @@
+E:\ProjetosPython\Aura2\.venv\Scripts\python.exe E:\ProjetosPython\CeafV3\quanqun.py 
+
+======================================================================
+ APPLICATION 1: CONSCIOUSNESS DETECTION
+======================================================================
+
+📖 Agent A (Flat): Processing text stream...
+   🚀 Epiphany! Expanding to 4D to hold complexity.
+
+📖 Agent B (Conscious): Processing text stream...
+   🚀 Epiphany! Expanding to 4D to hold complexity.
+   🚀 Epiphany! Expanding to 5D to hold complexity.
+
+========================================
+ 🧪 FINAL ANALYSIS REPORT
+========================================
+
+TEXT A (Flat / Linear):
+   Dimensions Used: 4
+   Unique Concepts: 16
+   Semantic Volume: 1.06
+   🧠 CONSCIOUSNESS SCORE: 11.30
+
+TEXT B (Deep / Recursive):
+   Dimensions Used: 5
+   Unique Concepts: 36
+   Semantic Volume: 6.87
+   🧠 CONSCIOUSNESS SCORE: 17.02
+
+CONCLUSION:
+✓ HYPOTHESIS CONFIRMED: Richer conceptual writing forces dimensional expansion.
+  The 'Conscious' text required more dimensions to avoid conceptual overlapping.
+
+📊 Visualization saved as 'consciousness_detection_result.png'
