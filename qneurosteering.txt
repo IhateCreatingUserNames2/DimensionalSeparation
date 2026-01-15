@@ -1,0 +1,22 @@
+E:\ProjetosPython\Aura2\.venv\Scripts\python.exe E:\ProjetosPython\CeafV3\qneurosteering.py 
+
+======================================================================
+ APPLICATION 3: NEURO-STEERING (RepE SIMULATION)
+======================================================================
+Goal: Mathematically 'cure' a depressed agent by injecting a specific
+      geometric vector, proving Emotion is a Direction.
+======================================================================
+
+1. RUNNING BASELINE (Depressed State)...
+   📉 Average Valence (Mood): -0.72
+   Interpretation: Concepts are clustered in the negative Y-plane.
+
+2. EXTRACTING STEERING VECTOR...
+   💉 Calculated Injection: [0.         1.52495902 0.        ]
+   (This vector represents 'Hope/Positivity' in this vector space)
+
+3. APPLYING NEURO-STEERING...
+   📈 New Valence (Mood): 0.76
+   Interpretation: The agent's reality has been geometrically shifted.
+
+📊 Visualization saved as 'neuro_steering_result.png'
