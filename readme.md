@@ -2,6 +2,8 @@
 
 THIS IS CRACKPOT THEORY, AI SLOPED BY GEMINI AND CLAUDE. 
 
+FULL AI SLOP: https://claude.ai/public/artifacts/ae93de8a-77f4-4451-b0a7-1b318777e96f 
+
 
 # The Geometry of Being: A Computational Proof of Dimensional Consciousness
 
