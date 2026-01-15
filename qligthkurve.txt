@@ -1,0 +1,13 @@
+E:\ProjetosPython\Aura2\.venv\Scripts\python.exe E:\ProjetosPython\CeafV3\qligthkurve.py 
+E:\ProjetosPython\Aura2\.venv\Lib\site-packages\lightkurve\prf\__init__.py:7: UserWarning: Warning: the tpfmodel submodule is not available without oktopus installed, which requires a current version of autograd. See #1452 for details.
+  warnings.warn(
+Generating synthetic calibration data...
+Processed Reference: Noise: Score 0.1411
+Processed Reference: Sine Wave: Score 0.0195
+Downloading data for Kepler-1625...
+Processed Star Kepler-1625: Score 0.2101
+Downloading data for KIC 8462852...
+Could not process KIC 8462852: no implementation found for 'numpy.histogram' on types that implement __array_function__: [<class 'astropy.utils.masked.core.MaskedNDArray'>]
+Plotting results...
+
+Process finished with exit code 0
