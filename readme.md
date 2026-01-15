@@ -4,6 +4,8 @@ THIS IS CRACKPOT THEORY, AI SLOPED BY GEMINI AND CLAUDE.
 
 FULL AI SLOP: https://claude.ai/public/artifacts/ae93de8a-77f4-4451-b0a7-1b318777e96f 
 
+Cleaned Ai SLOP:  Dimensional Separation in Cognitive Representation: A Computational Framework with Applications to Consciousness, Memory, and Altered States  https://claude.ai/public/artifacts/cd412f78-deca-4e14-9e5b-e6bcea4b6af2 
+
 
 # The Geometry of Being: A Computational Proof of Dimensional Consciousness
 
